@@ -103,7 +103,7 @@ public void comparacao(){
 */
 using System.IO.Pipes;
 
-class Datas
+class Data
 {
     
     private int Dia {get; set;} 
@@ -115,7 +115,7 @@ class Datas
         Mes = 1;
         Ano = 1;
     }
-    public Datas(int dia,int mes,int ano){
+    public Data(int dia,int mes,int ano){
         Dia = dia;
         Mes = mes;
         Ano = ano;
@@ -168,10 +168,10 @@ class Datas
     public bool Bissexto(){
         return (Ano % 4 == 0 && Ano % 100 !=) || (Ano % 400 == 0);
     }
-    public Datas clonar(){
+    public Data clonar(){
         return new Datas(Dia, Mes, Ano);
     }
-    public int comparar(Datas outraData){
+    public int comparar(Data outraData){
         if (Ano > outraData.Ano)
         {
             return 1;
@@ -192,7 +192,7 @@ class Datas
         }
         return 0;
     }
-    public string DataFormatado(){
+    public string DataFormatada(){
         return $"{Dia} de {NomeMes()} de {Ano}";
     }
 

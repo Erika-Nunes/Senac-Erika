@@ -1,0 +1,199 @@
+﻿@page "/"
+
+@* BOOTSTRAP
+    FONTE
+   FW = FONT WEIGHT = COMO LIGHTER E BOLD (FW-LIGHTER)
+   FS = FONT SIZE = (FS-1) 
+   FST = FONT SYLE = (fst-italic)
+   text-Decotarion-underline
+   text-decoration-line-through
+
+   POSIÇÃO DE TEXT
+   text-center (Centro), text-start(Inicio), text-end(final)
+
+
+    POSIÇÃO DE PADDING E MARGENS
+    Padding = p5
+    Margin = m5
+    mt = margem top
+    mx = margem no eixo x
+
+    DEIXAR SOMBRA
+    shadow-md
+
+
+    Cores
+    text-primary = (azul escuro)
+    text-secondry = (cinza)
+    text-sucess = (verde)
+    text-danger = (vermelho)
+    text-warning = (amarelo)
+    text-info = (azul claro)
+    text-light = (branco)
+    text-dark = (preto)
+
+
+    Border = Obedece as cores de Cores como prymary
+    border border-primary
+    rounded-pill (deixa a borda)
+
+    COR DE FUNDO
+    bg = Background Color Obedece as cores de Cores como primary
+
+
+
+    DIV = USAR BLOCOS
+    SPAN = USAR LINHA
+   *@
+
+<body>
+    
+@* GRID *@
+    <div class="container bg-danger text-center">
+        <div class="row">
+            <div class="col-5">(0, 1)</div>
+            <div class="col-5">(0, 2)</div>
+            <div class="col-5">(0, 3)</div>
+        </div>
+    </div>
+
+<h1>sonic foda</h1>
+
+
+<picture>
+                <source media="(max-width: 330px)" srcset="https://th.bing.com/th/id/OIP.Vwo6WNsVr8_Jd4OXJCkhegHaL0?rs=1&pid=ImgDetMain">
+                <img src="https://th.bing.com/th/id/OIP.Vwo6WNsVr8_Jd4OXJCkhegHaL0?rs=1&pid=ImgDetMain" alt="fundo" width="400px" height="400px">
+            </picture>
+
+    <table>    
+        <colgroup>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+        </colgroup>
+
+        <thead>
+            <th scope="col">MATERIAS</th>
+            <th scope="col">1 NOTA</th>
+            <th scope="col">2 NOTAS</th>
+            <th scope="col">3 NOTA</th>
+            <th scope="col">4 NOTAS</th>
+            <th scope="col">MEDIA</th>
+        </thead>
+
+
+        <tbody>
+<tr>
+    
+    <th scope="row" class="col">Português</th>
+    <td class= "nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    
+</tr>
+    
+<tr>
+    <th scope="row">Matemática</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">História</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Geografia</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Química</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Física</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Biologia</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Inglês</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Filosofia</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+
+<tr>
+    <th scope="row">Redação</th>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+    <td class="nota"></td>
+</tr>
+    </tbody>
+       </table> 
+
+        <h2>Listas Desordenadas</h2>
+        <ul type="disk"> <!--DA PRA MODIFICAR O TIPO, EXEMPLO DISCO NUMERO, ETC. -->
+            <li>item 1</li>
+            <li>item 2</li>
+            <ul>
+                <li>item2.1</li>
+                <li>item2.2</li>
+            </ul>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+            <h2>Listas Ordenadas</h2>
+
+            <ol type="1" start="1"> <!--START É PRA DIZER QUAL NUMERAÇÃO VAI STARTAR A CONTAGEM. -->
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            </ol>
+            </body>

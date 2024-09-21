@@ -1,0 +1,45 @@
+﻿@page "/login"
+@using MauiBlazor.Models;
+@inject NavigationManager Navigation;
+
+
+@* precisa ter username, password , seletor remember-me *@
+<div class="formulario">
+
+ <h1 class="text-center texto mt-2">Login</h1>
+
+    <EditForm Model="@loginForms" OnSubmit="HandleSubmit">
+
+        <div class="row p-4">
+        <InputText class="teste" id="Username" placeholder="Usuario"  @bind-Value="@loginForms.Username"></InputText>
+        </div>
+
+        <div class="row  p-4">
+        <InputText  class="teste" id="Email" type="email" placeholder="Email" @bind-Value="@loginForms.Email" ></InputText>
+        </div> 
+
+        <div class="row p-4">
+        <InputText class= "teste" id="Password" type="password" placeholder="Senha" @bind-Value="@loginForms.Password"></InputText>
+        </div>
+    </EditForm>
+
+
+<div class="container1">
+         <button class="button-confirm ">Entrar</button> 
+    </div>
+    </div>
+
+@code {
+    private LoginForms loginForms = new LoginForms();
+    private string usernameCorreto = "everton";
+    private string senhaCorreta = "1234";
+    
+    private void HandleSubmit()
+    {
+        Console.WriteLine(loginForms.Username);
+        Navigation.NavigateTo("Home");
+        if (loginForms.Username == usernameCorreto && loginForms.Password == senhaCorreta){
+            Navigation.NavigateTo("aula");
+        } 
+    }
+}

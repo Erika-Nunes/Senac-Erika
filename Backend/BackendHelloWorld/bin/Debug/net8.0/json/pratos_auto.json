@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 0,
+    "Nome": "Prato 01",
+    "Porcao": 2,
+    "Peso": 400,
+    "Ingredientes": [
+      "Ingredientes01",
+      "Ingredientes02"
+    ]
+  },
+  {
+    "Id": 1,
+    "Nome": "Prato 02",
+    "Porcao": 4,
+    "Peso": 800,
+    "Ingredientes": [
+      "Ingredientes01",
+      "Ingredientes02"
+    ]
+  }
+]

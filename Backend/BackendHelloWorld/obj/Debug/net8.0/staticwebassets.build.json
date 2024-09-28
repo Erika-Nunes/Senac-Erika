@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3rjxSf2K7cNfyjZ2bikR89h9tOmcHqQLb1SfkEiE2cs=",
+  "Source": "BackendHelloWorld",
+  "BasePath": "_content/BackendHelloWorld",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

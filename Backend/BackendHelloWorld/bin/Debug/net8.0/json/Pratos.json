@@ -1,0 +1,120 @@
+[
+    {
+        "Prato1":{
+            "id": 1,
+            "nome": "macarronada",
+            "porcao": 2,
+            "peso": 1.5,
+            "listaIngredientes": [
+                {
+                    "id":0,
+                    "nome":"mussarela",
+                    "quantidade":8
+                },
+                {
+                    "id":1,
+                    "nome":"presunto",
+                    "quantidade":5
+                },
+                {
+                    "id":2,
+                    "nome":"macarrao ",
+                    "quantidade":1
+                },
+                {
+                    "id":3,
+                    "nome":"molho de tomate",
+                    "quantidade":1
+                }
+
+            ]
+        },
+        "Prato2":{
+            "id": 2,
+            "nome": "lasanha",
+            "porcao": 4,
+            "peso": 12,
+            "listaIngredientes": [
+                {
+                    "id":0,
+                    "nome":"mussarela",
+                    "quantidade":15
+                },
+                {
+                    "id":1,
+                    "nome":"presunto",
+                    "quantidade":15
+                },
+                {
+                    "id":2,
+                    "nome":"macarrao para lasanha",
+                    "quantidade":1
+                },
+                {
+                    "id":3,
+                    "nome":"molho de tomate",
+                    "quantidade":1
+                }
+
+            ]
+        },
+        "Prato3":{
+            "id": 3,
+            "nome": "pudim",
+            "porcao": 8,
+            "peso": 12,
+            "listaIngredientes": [
+                {
+                    "id":0,
+                    "nome":"leite condensado",
+                    "quantidade":1
+                },
+                {
+                    "id":1,
+                    "nome":"açucar",
+                    "quantidade":1
+                },
+                {
+                    "id":2,
+                    "nome":"ovos",
+                    "quantidade":3
+                },
+                {
+                    "id":3,
+                    "nome":"leite",
+                    "quantidade":1
+                }
+
+            ]
+        },
+        "Prato4":{
+            "id": 4,
+            "nome": "mousse limao",
+            "porcao": 3,
+            "peso": 12,
+            "listaIngredientes": [
+                {
+                    "id":0,
+                    "nome":"limao",
+                    "quantidade":5
+                },
+                {
+                    "id":1,
+                    "nome":"leite condensado",
+                    "quantidade":1
+                },
+                {
+                "id":2,
+                "nome":"creme de leite",
+                "quantidade":1
+                }
+
+            ]
+        }
+
+    }
+
+
+
+
+]

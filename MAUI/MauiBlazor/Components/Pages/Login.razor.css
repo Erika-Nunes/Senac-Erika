@@ -1,6 +1,6 @@
 .formulario {
     --input-focus: #2d8cf0;
-    --font-color: #7e0ce9;
+    --font-color: #0c0000;
     --font-color-sub: #666;
       --bg-color: #fff;
       --main-color: #323232;
@@ -8,6 +8,9 @@
       border-radius: 5px;
       border: 2px solid var(--main-color);
       box-shadow: 4px 4px var(--main-color);
+      background-image: url(https://img.freepik.com/premium-photo/bag-with-vegetables-fruits-mint-background_185193-19995.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     
   .texto{

@@ -1,7 +1,11 @@
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
 
 List<Cliente> clientes = new List<Cliente>();
-
+clientes.Add(new Cliente(1, "Cliente A", "FDASFDSA@hotmail.com", true, null));
+clientes.Add(new Cliente(2, "Cliente B", "FDASFDSA@hotmail.com", false,  null));
+clientes.Add(new Cliente(3, "Cliente C", "FDASFDSA@hotmail.com", true,  null));
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
@@ -14,6 +18,33 @@ app.MapPost("/cliente", PostCliente);
 app.MapGet("/cliente/{id}", GetCliente);
 app.MapDelete("/cliente/{id}", DeleteCliente);
 app.MapPut("/cliente", UpdateCliente);
+
+app.MapGet("/turmas", GetTodasTurmas);
+app.MapGet("/login", Login);
+
+app.Run();
+
+void Login(){
+    BancoDados bancoDados = new BancoDados();
+    string email = "everton@se.senac.com.br";
+    string senha = "1234";
+    string hashSenha = Utils.GerarHash(senha);
+    //Console.WriteLine(hashSenha); //Gerar token
+    //Console.WriteLine(GerarHash(senha));
+    string? token = bancoDados.Login(email, hashSenha);
+  
+    if (token != null)
+    {
+       bancoDados.SalvarToken(email,token);
+    }
+    else{
+         Console.WriteLine("Usuario INCORRETO");
+    }
+}
+void GetTodasTurmas(){
+    // List<Turma> turmas = bancoDados.GetTodasTurmas();
+    //Console.WriteLine($"Quantidade de Turmas: {turmas.Count}");
+}    
 //endpoint
 //Api - application program interface
 //Minimal API

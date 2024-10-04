@@ -1,4 +1,6 @@
 ﻿@page "/login"
+@using System.Text;
+@using System.Text.Json;
 @using MauiBlazor.Models;
 @inject NavigationManager Navigation;
 
@@ -28,7 +30,8 @@
          <button class="button-confirm ">Entrar</button> 
     </div>
     </div>
-
+<button @onclick=Clicar >Listar Clientes</button>
+<button @onclick=Clicar >Adicionar Clientes</button>
 @code {
     private LoginForms loginForms = new LoginForms();
     private string usernameCorreto = "everton";
@@ -41,5 +44,44 @@
         if (loginForms.Username == usernameCorreto && loginForms.Password == senhaCorreta){
             Navigation.NavigateTo("aula");
         } 
+    }
+
+    public void Clicar(){
+        GetClientes();
+    }
+    public void AdicionarClientesBotao(){
+        Cliente novoCliente = new Cliente(4,"novo cliente", "nococliente@gmail.com", false,null);
+        string json = JsonSerializer.Serializer(novoCliente);
+
+        string url = "http://localhost:5137/clientes";
+        HttpClient http = new HttpClient();
+        StringContent stringContent = new StringContent(json, Encoding.ASCII,"application/json");
+        var resposta = await http.PostAsync(url, StringContent);
+
+    
+        if(resposta.IsSuccessStatusCode){
+            Console.WriteLine("Novo cliente" );
+            //clientes[0].Nome)
+        }
+        else{
+            Console.WriteLine("Falha");
+            }
+    }
+    
+
+    private async Task GetClientes(){
+            string url = "http://localhost:5137/clientes";
+            HttpClient http = new HttpClient();
+
+        var resposta = await http.GetAsync(url);
+
+        if(resposta.IsSuccessStatusCode){
+            List <Cliente> clientes = await resposta.Content.ReadFromJsonAsync <List<Cliente>>();
+            Console.WriteLine("Sucesso -" + clientes.Count);
+            //clientes[0].Nome)
+        }
+        else{
+            Console.WriteLine("Falha");
+            }
     }
 }

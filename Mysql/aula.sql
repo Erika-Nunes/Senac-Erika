@@ -39,3 +39,30 @@ WHERE matricula = 3;
 
 SELECT * FROM sakila.alunos;
 
+INSERT INTO sakila.turmas(codigo, curso, turno)
+VALUES
+(1, "Programador de Sistemas", "Noite"),
+(2, "Informatica Básica", "Tarde");
+
+SELECT * FROM sakila.turmas,usuarios;
+
+SELECT *  
+FROM sakila.alunos a
+JOIN sakila.turmas t
+ON a.codigo_turma = t.codigo;
+
+SELECT nome,curso,turno
+FROM sakila.alunos a
+JOIN sakila.turmas t
+ON a.codigo_turma = t.codigo
+WHERE a.codigo_turma = 1;
+
+
+SELECT * FROM sakila.usuarios,usuarios;
+SELECT * 
+FROM sakila.usuarios
+WHERE email = "everton@se.senac.com.br";
+
+UPDATE sakila.usuarios
+SET token = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+WHERE email ="everton@se.senac.com.br";

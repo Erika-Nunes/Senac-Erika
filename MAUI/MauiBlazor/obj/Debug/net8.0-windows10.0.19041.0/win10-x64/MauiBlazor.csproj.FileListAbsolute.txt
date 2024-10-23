@@ -503,3 +503,4 @@ C:\Users\AULA\Pictures\Erika\Maui\MauiBlazor\obj\Debug\net8.0-windows10.0.19041.
 C:\Users\AULA\Pictures\Erika\Maui\MauiBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\Login.razor.rz.scp.css
 C:\Users\AULA\Pictures\Erika\Maui\MauiBlazor\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Components\Pages\Home.razor.css
 C:\Users\AULA\Pictures\Erika\Maui\MauiBlazor\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Components\Pages\Login.razor.css
+C:\Users\AULA\Pictures\Erika\Maui\MauiBlazor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\CadastroProdutos.razor.rz.scp.css

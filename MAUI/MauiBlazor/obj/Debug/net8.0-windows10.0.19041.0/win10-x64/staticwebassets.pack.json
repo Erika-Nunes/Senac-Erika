@@ -17,12 +17,32 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\css\\estilo.css",
+      "PackagePath": "staticwebassets\\css\\estilo.css"
+    },
+    {
       "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\imagens\\Produtos2.png",
+      "PackagePath": "staticwebassets\\imagens\\Produtos2.png"
+    },
+    {
+      "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\imagens\\editar.png",
+      "PackagePath": "staticwebassets\\imagens\\editar.png"
+    },
+    {
+      "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\imagens\\lixeira.png",
+      "PackagePath": "staticwebassets\\imagens\\lixeira.png"
+    },
+    {
       "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\imagens\\logo.jpg",
       "PackagePath": "staticwebassets\\imagens\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\imagens\\produtos.avif",
+      "PackagePath": "staticwebassets\\imagens\\produtos.avif"
     },
     {
       "Id": "C:\\Users\\AULA\\Pictures\\Erika\\Maui\\MauiBlazor\\wwwroot\\index.html",

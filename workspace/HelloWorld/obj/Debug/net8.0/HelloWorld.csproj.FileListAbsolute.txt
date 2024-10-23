@@ -1,0 +1,14 @@
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+c:\Users\AULA\Pictures\Erika\workspace\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll

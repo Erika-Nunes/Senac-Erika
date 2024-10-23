@@ -178,6 +178,31 @@ main[b-q3qf60pdez] {
         overflow-y: auto;
     }
 }
+/* /Components/Pages/CadastroProdutos.razor.rz.scp.css */
+.img-produto[b-92uwh5gr16]{
+    width: 100%;
+}
+
+.botaoSalvar[b-92uwh5gr16]{
+    background: rgb(252, 193, 18);
+    background: radial-gradient(circle, rgb(208,56,56) 0%, rgb(119,16,9) 100%,);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+
+}
+.botaoNovo[b-92uwh5gr16]{
+    background: rgb(252, 193, 18);
+    background: radial-gradient(circle, rgb(211,199,199) 0%, rgb(42,35,35) 100%,);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.desabilitado[b-92uwh5gr16]{
+    background-color: #ccc;
+}
 /* /Components/Pages/Counter.razor.rz.scp.css */
 /* /Components/Pages/Home.razor.rz.scp.css */
 
